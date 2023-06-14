@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            User u = new User("talsi", "123456");
+            User u = new User("Kuku", "123456");
 
             Console.WriteLine($"Hello {u.GetUserName()} Please change Password:");
             //THIS IS MY mESSAGE
