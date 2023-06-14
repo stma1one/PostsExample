@@ -8,7 +8,7 @@
 
             Console.WriteLine($"Hello {u.GetUserName()} Please change Password:");
             //THIS IS MY mESSAGE
-            string newPass = Console.ReadLine()
+            string newPass = Console.ReadLine();
             while (!u.ChangePassWord(newPass))
             {
                 Console.WriteLine("Wrong Password");
