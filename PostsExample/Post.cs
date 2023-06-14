@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace PostsExample
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public  class Post
     {
         private User user;
